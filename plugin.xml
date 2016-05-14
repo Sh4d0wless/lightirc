@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="lightirc" lan="LIRC_NAME" version="2.0" date="2016-03-20" compatibility="2.1" installRequired="true" >
+	<author name="Terence Theijn" url="http://theijn.nl/" />
+	<summary lan="">e107 plugin that provides a flash based irc client.</summary>
+	<description lan="">e107 plugin that provides a flash based client for LighIRC chat.</description>
+	<keywords>
+        <word>lightirc</word>
+		<word>irc</word>
+		<word>chat</word>
+	</keywords>
+	<category>tools</category>
+	<copyright>GPL+WTFPL</copyright>
+	<siteLinks>
+		<link url="{e_PLUGIN}lightirc/index.php" perm="everyone"  description="Links Page" >LIRC_LINK_NAME</link>
+	</siteLinks>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/logo_32.png" iconSmall="images/logo_16.png" icon128="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='lightirc_name'>lightIRC</pref>
+		<pref name='lightirc_host'></pref>
+		<pref name='lightirc_port'>6667</pref>
+		<pref name='lightirc_policyPort'>843</pref>
+                <pref name='lightirc_language'></pref>
+                <pref name='lightirc_showServerWindow'>true</pref>
+                <pref name='lightirc_showSecurityError'>true</pref>
+                <pref name='lightirc_customSecurityErrorMessage'></pref>
+                <pref name='lightirc_blockedCommands'></pref>
+                <pref name='lightirc_autojoin'></pref>
+                <pref name='lightirc_autoReconnect'>true</pref>   
+                <pref name='lightirc_styleURL'></pref>
+                <pref name='lightirc_nickPrefix'></pref>
+                <pref name='lightirc_nickPostfix'></pref>
+                <pref name='lightirc_showNickPrefixes'>true</pref>
+                <pref name='lightirc_showNickPrefixIcons'>true</pref>
+                <pref name='lightirc_ident'></pref>
+                <pref name='lightirc_realname'></pref>
+                <pref name='lightirc_showNavigation'>true</pref>
+                <pref name='lightirc_navigationPosition'>bottom</pref>
+     		<pref name='lightirc_fontSize'>14</pref>
+                <pref name='lightirc_userListWidth'>160</pref>		    
+                <pref name='lightirc_soundAlerts'>true</pref>
+                <pref name='lightirc_showTimestamps'>true</pref>
+                <pref name='lightirc_showJoinPartMessages'>true</pref>
+                <pref name='lightirc_showNewQueriesInBackground'>true</pref>
+                <pref name='lightirc_enableQueries'>true</pref>
+                <pref name='lightirc_showChannelCentral'>true</pref>
+                <pref name='lightirc_showListButton'>true</pref>
+		<pref name='lightirc_showRichTextControls'>true</pref>
+		<pref name='lightirc_showNickChangeButton'>false</pref>
+                <pref name='lightirc_accessKey'></pref>
+                <pref name='lightirc_webcam'>false</pref>
+                <pref name='lightirc_rtmp'></pref>
+                <pref name='lightirc_webcamPreviewBox'>false</pref>
+                <pref name='lightirc_webcamPrivateOnly'>false</pref>
+                <pref name='lightirc_webcamPublicOnly'>false</pref>
+                <pref name='lightirc_webcamVideoOnly'>false</pref>
+                <pref name='lightirc_webcamAudioOnly'>false</pref>
+                <pref name='lightirc_webcamChannelBlacklist'>false</pref>
+                <pref name='lightirc_webcamChannelWhitelist'>false</pref>
+		<pref name='lightirc_showNickSelection'>false</pref>    
+		<pref name='lightirc_nickAlternate'>lightIRC_%</pref>    
+		
+			</pluginPrefs>
+</e107Plugin>
