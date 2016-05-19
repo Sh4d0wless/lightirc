@@ -1,5 +1,7 @@
 # LightIRC
 
+[![Join the chat at https://gitter.im/septor/lightirc](https://badges.gitter.im/septor/lightirc.svg)](https://gitter.im/septor/lightirc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This README file will be lacking for awhile. Stick around.
 
 ## More Information
