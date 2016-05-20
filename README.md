@@ -1,3 +1,9 @@
+## NOTICE
+
+This plugin is pending a complete rewrite. Upon investigating I've decided starting from scratch would be more beneficial. If you used this pluign in the past add your wishlist items to the issue tracker. I'll do my best to get them in. 
+
+I'll be updating this README file with more information as I assemble it. Please note, my time is very limited so progress will be very sporadic.
+
 # LightIRC
 
 [![Join the chat at https://gitter.im/septor/lightirc](https://badges.gitter.im/septor/lightirc.svg)](https://gitter.im/septor/lightirc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
